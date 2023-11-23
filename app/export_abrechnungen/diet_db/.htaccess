@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Bitte melden Sie sich an"
+AuthUserFile /is/htdocs/wp1055935_1F55KTNHIC/www/sbar/verwaltung/diet_db/.htpasswd
+require valid-user

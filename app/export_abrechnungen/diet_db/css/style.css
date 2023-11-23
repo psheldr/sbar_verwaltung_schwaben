@@ -1,0 +1,116 @@
+
+
+/* Modal Window */
+.ui-dialog{
+	background-color: white;
+	padding: 6px 10px;
+	border-radius: 8px;
+  border-style: double;
+  border-color: burlywood;
+  box-shadow: 11px 12px darkgray;
+}
+.ui-dialog-titlebar{
+	margin-top: -6px;
+	margin-left: -10px;
+	margin-bottom: 0px;
+	margin-right: -10px;
+	padding-left: 9px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  background-color: moccasin;
+}
+/* Modal close buttons*/
+.ui-dialog-titlebar-close{
+	float: right;
+	border-radius: 3px;
+  margin-top: -5px;
+	padding: 4px 11px;
+}
+
+/*Checkboxen ausrichten*/
+.editCheck{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/*Elemente mit der ID 'hidden' asublenden*/
+#hidden{
+    display:none;
+}
+/*Filter Elemente, nach denen wir nicht filtern ausblenden*/
+label.id,label.Tour,label.Einrichtung,label.Diät,label.Menge,label.Zusammenfassung{
+    display: none;
+}
+/*gefiltert Anzeige ausrichten und Farben festlegen*/
+span#filterElements {
+	margin: 4px;
+	border-radius: 20px;
+	background-color: #ff870d;
+	padding: 0px 14px;
+        color: white;
+}
+/*Schreibformat festlegen*/
+body{
+    font-family: arial;
+    font-size: 15px;
+}
+/*Breite der Mehrfachauswahl den Eingabeelementen anpassen, vereinheitlichen*/
+select{
+    width: 147px;
+}
+/* --- Buttons stylen --- */
+button, input[type="submit"]{
+    border-radius: 33px;
+    border: none;
+    background-color: #ff870d;
+    color: white;
+    padding: 2px 20px;
+}
+button:hover, input[type="submit"]:hover{
+    color: white;
+    background-color: #ff9d31;
+}
+button#logout{
+    margin-left: 25px;
+}
+button#export{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+/* --------------------- */
+
+/*Infotext in 'Neue Spalte' hervorheben*/
+p#infotext {
+	font-variant: sub;
+	font-style: oblique;
+}
+/* --- Formelemente ausrichten --- */
+fieldset {
+    margin: 20px;
+}
+#filterForm label{
+    margin: 10px 12px;
+
+}
+/* --- Tabellen Design --- */
+/*Rahmen auf eine Linie &
+  Tabellenbreite auf die gesamte Browserbreite*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 50px;
+}
+/*Inneren Abstand der Zellen festlegen*/
+th,td {
+    padding:2px 2px;
+    border: 1px solid #ddd;
+}
+/*Lesehilfe*/
+tr:nth-child(even), tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+/*Orientierungshilfe bei Maushover*/
+tr:hover, tr:nth-child(even):hover, tr:nth-child(even):hover{
+    background-color: #ff870d;
+    color: white;
+}

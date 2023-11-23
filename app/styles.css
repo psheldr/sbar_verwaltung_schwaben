@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+img, a {
+    border: none;
+}
+a:hover {
+    color: yellow;
+}
+br {
+    clear: both;
+}
+p  {
+    margin: 10px 0px;
+    color: #343452;
+    line-height: 130%;
+}
+body {
+    padding: 0px;
+    color: #343452;
+}
+h1 {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+h3 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.highlight_row td {
+    background: #eee;
+}
+table {
+    border-collapse: collapse;
+    border: none;
+    margin: 10px 0px;
+}
+table td {
+    padding: 5px;
+    vertical-align: top;
+    border: 1px solid #bbb;
+}
+
+table th {
+    padding: 3px;
+    background: #EC5006;
+    border: 1px solid #bbb;
+    color: #fff;
+}
+.clear {
+    clear: both;
+}
+input {
+    height: 20px;
+}
+
+.error_text {
+    color: red;
+    font-weight: bold;
+}
+
+#login_box {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+#login_box label, .form_label {
+    width: 150px;
+    display: block;
+    float: left;
+    margin: 5px 0px;
+}
+#login_box input, .form_input {
+    display: block;
+    border: 1px solid #EC5006;
+    margin: 5px 0px;
+    float: left;
+    width: 200px;
+    background: #fff;
+}
+#login_box .submit_btn, .submit_btn {
+    display: block;
+    width: 200px;
+    margin: 5px 0px;
+    margin-left: 150px;
+    color: #fff;
+    background: #EC5006;
+    height: 22px;
+    font-weight: bold;
+}
+.navi_tbl {
+    border-collapse: collapse;
+}
+.user_nav {
+    margin-left: 300px;
+    color: yellow;
+    padding: 0px 10px;
+    width: 660px;
+}
+.user_nav a {
+    color: #fff;
+    font-weight: bold;
+}
+.user_nav a:hover {
+    color: yellow;
+}
+.navi_tbl td {
+    border: none;
+    padding:0;
+    color: #fff;
+}
+.navi_tbl a {
+    display: block;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: #fff;
+}
+.navi_tbl a:hover, .navi_tbl td a.active_navi {
+    color: yellow;
+}
+.action_links {
+    color:#888;
+    color: red !important;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.action_links_btns {
+    border: 1px outset #444;
+    text-decoration: none;
+    padding: 3px;
+    margin: 0px 1px;
+}
+
+.btn_inaktiv {
+    color: red;
+}
+.btn_aktiv {
+    color: green;
+}
+
+#navi_box {
+    background: #EC5006;
+    padding: 3px;
+}
+
+
+.action_links:hover, .active_action_links, .active_action_links:hover{
+    color: green;
+    font-weight: bold;
+}
+
+#content_box {
+    width: 950px;
+    width: 90%;
+    padding: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+.bemerkung_zu_tag {
+    
+}
+
+.form_box {
+    border: 1px solid #bbb;
+    padding: 10px;
+}
+
+
+#essenszeit_m, #essenszeit_h {
+    width: 40px;
+}
+
+.kunden_tbl {
+    width: 850px;
+}
+
+#neue_kat_box {
+    position: absolute;
+    left: 550px;
+    top:100px;
+    width: 300px;
+}
+
+.speiseplan_tbl {
+    width: 940px;
+    margin-bottom: 30px;
+}
+
+.speiseplan_tbl td {
+    font-size: 10px;
+    border: 1px solid #bbb;
+}
+
+.speiseplan_tbl .th2 th {
+    font-size: 9px;
+    font-weight: normal;
+    border: 1px solid #bbb;
+    background: #fff;
+    color: #000;
+}
+
+.portionen_input {
+    width: 30px;
+    margin:0;
+    clear: both;
+    font-weight: bold;
+}
+
+.speiseplan_tbl .th2 th {
+    font-size: 9px;
+    font-weight: normal;
+    background: #ddd;
+    color: #888;
+}
+
+sup {
+    font-size: 8px;
+}
+
+.speise_th {
+    background: green;
+}
+td.gesamt_td  {
+    border-top: 2px solid #666;
+}
+
+table th a {
+    color:#fff;
+    font-weight: bold;
+}
+.color_red {
+    color: red;
+}
+
+.save_btn {
+    width: 20px;
+    background: url(../images/save_icon.png) no-repeat;
+}
+
+.gesamt_tr td {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+table.speiseplan_tbl tr .heute_tag {
+    background: #97A500;
+}
+
+.speise_fehler_td {
+    color: red;
+    font-weight: bold;
+}
+.mengen_tbl {
+}
+
+.txt_right {
+    text-align: right;
+}
+
+.bg_tr {
+    background: #ddd;
+}
+.durchgestrichen {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#infoticker_form select {
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.infoticker_link {
+    display: block;
+    border: 3px solid red;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+.infoticker_link:hover {
+    border: 3px solid green;
+}
+.infoticker_link:hover .datum {
+    background: green;
+    color: #fff;
+}
+.infoticker_link:hover .text {
+    color: green;
+    
+}
+.infoticker_link .datum, .infoticker_link .text {
+    display: block;
+font-size: 13px;
+    padding: 5px;
+}
+.infoticker_link .datum {
+    background: red;
+    color: #fff;
+}
+
+.infoticker_link .text {
+font-size: 13px;
+    
+}
+.no_info_text {
+    font-size: 24px;
+    font-weight: bold;
+}

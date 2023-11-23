@@ -1,0 +1,3 @@
+ Redirect /impressum.html http://www.s-bar.net
+ Redirect /impressum http://www.s-bar.net
+ php_value max_input_vars 6000
